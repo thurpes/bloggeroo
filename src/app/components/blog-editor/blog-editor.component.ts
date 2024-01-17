@@ -7,7 +7,7 @@ import { AppUser } from "src/app/models/appuser";
 import { AuthService } from "src/app/services/auth.service";
 import { EMPTY, ReplaySubject } from "rxjs";
 import { switchMap, takeUntil } from "rxjs/operators";
-import { Post } from "src/app/models/Post";
+import { Post } from "src/app/models/post";
 
 @Component({
   selector: "app-blog-editor",
