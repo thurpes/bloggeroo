@@ -6,7 +6,7 @@ import { CommentService } from "src/app/services/comment.service";
 import { SnackbarService } from "src/app/services/snackbar.service";
 import { combineLatestWith, map } from "rxjs/operators";
 import { AppUser } from "src/app/models/appuser";
-import { Post } from "src/app/models/Post";
+import { Post } from "src/app/models/post";
 
 class Vm {
   blogList: Post[];
