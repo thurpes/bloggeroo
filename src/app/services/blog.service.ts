@@ -1,8 +1,8 @@
 import { Injectable } from "@angular/core";
-import { Post } from "../models/Post";
 import { AngularFirestore } from "@angular/fire/compat/firestore";
 import { map } from "rxjs/operators";
 import { Observable } from "rxjs";
+import { Post } from "../models/Post";
 
 @Injectable({
   providedIn: "root",
